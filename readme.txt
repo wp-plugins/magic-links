@@ -50,5 +50,5 @@ You can modify the following settings in the Settings page:
 
 == Changelog ==
 
-= 0.1 =
-*  0.1 Released.
+= 1.0 =
+*  1.0 Released.
