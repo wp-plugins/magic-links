@@ -51,7 +51,7 @@ You can modify the following settings in the Settings page:
 == Screenshots ==
 
 1. Magic Links in Widget
-2. Magic Links in Article
+1. Magic Links in Article
 
 == Changelog ==
 
