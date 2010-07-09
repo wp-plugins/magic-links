@@ -48,6 +48,11 @@ You can modify the following settings in the Settings page:
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Place `[MAGIC-LINKS]` in your article or widget
 
+== Screenshots ==
+
+1. Magic Links in Widget
+2. Magic Links in Article
+
 == Changelog ==
 
 = 1.0 =
