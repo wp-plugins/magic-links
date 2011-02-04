@@ -57,3 +57,6 @@ You can modify the following settings in the Settings page:
 
 = 1.0 =
 *  1.0 Released.
+
+= 1.0.2 =
+*  Fixed cron job error.

@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Magic Links
-Plugin URI: http://raychow.info/2010/magic-links.html
+Plugin URI: http://beamnote.com/2010/magic-links.html
 Description: Show links in different styles.
-Version: 1.0
+Version: 1.0.2
 Author: Ray Chow
-Author URI: http://raychow.info/
+Author URI: http://beamnote.com/
 */
 
 load_textdomain('magiclinks', dirname(__FILE__) . '/lang/' . get_locale() . '.mo');
@@ -176,8 +176,8 @@ function ml_add_setting_page() {
 
 add_action('admin_menu', 'ml_add_setting_page');
 
-function ml_add_schedule_options() {
-	return array(
+function ml_add_schedule_options($schedules) {
+	return array_merge($schedules, array(
 		'ml_minutely' => array('interval' => 60, 'display' => 'Once Minutely'),
 		'ml_every2minutes' => array('interval' => 120, 'display' => 'Every 2 Minutes'),
 		'ml_every5minutes' => array('interval' => 300, 'display' => 'Every 5 Minutes'),
@@ -190,7 +190,7 @@ function ml_add_schedule_options() {
 		'ml_every2days' => array('interval' => 172800, 'display' => 'Every 2 Days'),
 		'ml_weekly' => array('interval' => 604800, 'display' => 'Once Weekly'),
 		'ml_monthly' => array('interval' => 2592000, 'display' => 'Once Monthly'),
-	);
+	));
 }
 add_filter('cron_schedules', 'ml_add_schedule_options');
 
