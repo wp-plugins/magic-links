@@ -1,10 +1,10 @@
 === Magic Links ===
 Contributors: raychow
-Donate link: http://raychow.info/
+Donate link: http://beamnote.com/
 Tags: links, widgets, sidebar, post, posts
 Requires at least: 2.3
-Tested up to: 3.0
-Stable tag: 1.0
+Tested up to: 3.0.5
+Stable tag: 1.0.2
 
 Magic Links is a WordPress plugin that offers a variety of methods to show links.
 
